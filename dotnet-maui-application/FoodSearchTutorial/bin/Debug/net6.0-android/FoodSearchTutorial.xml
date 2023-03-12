@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FoodSearchTutorial</name>
+    </assembly>
+    <members>
+        <member name="P:FoodSearchTutorial.ViewModel.BaseViewModel.IsBusy">
+            <inheritdoc cref="F:FoodSearchTutorial.ViewModel.BaseViewModel.isBusy"/>
+        </member>
+        <member name="P:FoodSearchTutorial.ViewModel.BaseViewModel.Title">
+            <inheritdoc cref="F:FoodSearchTutorial.ViewModel.BaseViewModel.title"/>
+        </member>
+        <member name="P:FoodSearchTutorial.ViewModel.ProductDetailsViewModel.Product">
+            <inheritdoc cref="F:FoodSearchTutorial.ViewModel.ProductDetailsViewModel.product"/>
+        </member>
+        <member name="F:FoodSearchTutorial.ViewModel.ProductDetailsViewModel.openProductCommand">
+            <summary>The backing field for <see cref="P:FoodSearchTutorial.ViewModel.ProductDetailsViewModel.OpenProductCommand"/>.</summary>
+        </member>
+        <member name="P:FoodSearchTutorial.ViewModel.ProductDetailsViewModel.OpenProductCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:FoodSearchTutorial.ViewModel.ProductDetailsViewModel.OpenProductAsync(FoodSearchTutorial.Model.Product)"/>.</summary>
+        </member>
+        <member name="P:FoodSearchTutorial.ViewModel.ProductsSearchViewModel.IsSearchTermsHistoryEmpty">
+            <inheritdoc cref="F:FoodSearchTutorial.ViewModel.ProductsSearchViewModel.isSearchTermsHistoryEmpty"/>
+        </member>
+        <member name="F:FoodSearchTutorial.ViewModel.ProductsSearchViewModel.searchProductsCommand">
+            <summary>The backing field for <see cref="P:FoodSearchTutorial.ViewModel.ProductsSearchViewModel.SearchProductsCommand"/>.</summary>
+        </member>
+        <member name="P:FoodSearchTutorial.ViewModel.ProductsSearchViewModel.SearchProductsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:FoodSearchTutorial.ViewModel.ProductsSearchViewModel.SearchProductsAsync(System.String)"/>.</summary>
+        </member>
+        <member name="F:FoodSearchTutorial.ViewModel.ProductsSearchViewModel.clearSearchTermsHistoryCommand">
+            <summary>The backing field for <see cref="P:FoodSearchTutorial.ViewModel.ProductsSearchViewModel.ClearSearchTermsHistoryCommand"/>.</summary>
+        </member>
+        <member name="P:FoodSearchTutorial.ViewModel.ProductsSearchViewModel.ClearSearchTermsHistoryCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:FoodSearchTutorial.ViewModel.ProductsSearchViewModel.ClearSearchTermsHistory"/>.</summary>
+        </member>
+        <member name="P:FoodSearchTutorial.ViewModel.ProductsViewModel.IsRefreshing">
+            <inheritdoc cref="F:FoodSearchTutorial.ViewModel.ProductsViewModel.isRefreshing"/>
+        </member>
+        <member name="P:FoodSearchTutorial.ViewModel.ProductsViewModel.SearchTerm">
+            <inheritdoc cref="F:FoodSearchTutorial.ViewModel.ProductsViewModel.searchTerm"/>
+        </member>
+        <member name="P:FoodSearchTutorial.ViewModel.ProductsViewModel.SearchedTitle">
+            <inheritdoc cref="F:FoodSearchTutorial.ViewModel.ProductsViewModel.searchedTitle"/>
+        </member>
+        <member name="F:FoodSearchTutorial.ViewModel.ProductsViewModel.getRandomProductsCommand">
+            <summary>The backing field for <see cref="P:FoodSearchTutorial.ViewModel.ProductsViewModel.GetRandomProductsCommand"/>.</summary>
+        </member>
+        <member name="P:FoodSearchTutorial.ViewModel.ProductsViewModel.GetRandomProductsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FoodSearchTutorial.ViewModel.ProductsViewModel.GetRandomProductsAsync"/>.</summary>
+        </member>
+        <member name="F:FoodSearchTutorial.ViewModel.ProductsViewModel.searchProductsCommand">
+            <summary>The backing field for <see cref="P:FoodSearchTutorial.ViewModel.ProductsViewModel.SearchProductsCommand"/>.</summary>
+        </member>
+        <member name="P:FoodSearchTutorial.ViewModel.ProductsViewModel.SearchProductsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FoodSearchTutorial.ViewModel.ProductsViewModel.SearchProductsAsync"/>.</summary>
+        </member>
+        <member name="F:FoodSearchTutorial.ViewModel.ProductsViewModel.goToDetailsCommand">
+            <summary>The backing field for <see cref="P:FoodSearchTutorial.ViewModel.ProductsViewModel.GoToDetailsCommand"/>.</summary>
+        </member>
+        <member name="P:FoodSearchTutorial.ViewModel.ProductsViewModel.GoToDetailsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:FoodSearchTutorial.ViewModel.ProductsViewModel.GoToDetailsAsync(FoodSearchTutorial.Model.Product)"/>.</summary>
+        </member>
+    </members>
+</doc>
