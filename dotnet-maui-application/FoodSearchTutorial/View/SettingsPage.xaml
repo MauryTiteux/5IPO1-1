@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:model="clr-namespace:FoodSearchTutorial.Model"
+             xmlns:viewmodel="clr-namespace:FoodSearchTutorial.ViewModel"
+             x:Class="FoodSearchTutorial.View.SettingsPage"
+             x:DataType="viewmodel:SettingsViewModel"
+             Title="{Binding Title}">
+    <Grid Padding="5" RowDefinitions="Auto, Auto">
+        <Frame Padding="10">
+            <Grid RowDefinitions="Auto, Auto">
+                <Label Text="Nutri-Score"
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="Center"/>
+                <HorizontalStackLayout x:Name="nutriscoreStackLayout"
+                                       HorizontalOptions="Center"
+                                       Padding="0"
+                                       Grid.Row="1">
+                    
+                    <RadioButton Content="Tous"
+                                 Value="ALL"
+                                 GroupName="Nutriscore"
+                                 CheckedChanged="OnCheckedChanged"/>
+
+                    <RadioButton Content="A"
+                                 Value="A"
+                                 GroupName="Nutriscore"
+                                 CheckedChanged="OnCheckedChanged"/>
+
+                    <RadioButton Content="B"
+                                 Value="B"
+                                 GroupName="Nutriscore"
+                                 CheckedChanged="OnCheckedChanged"/>
+
+                    <RadioButton Content="C"
+                                 Value="C"
+                                 GroupName="Nutriscore"
+                                 CheckedChanged="OnCheckedChanged"/>
+
+                    <RadioButton Content="D"
+                                 Value="D"
+                                 GroupName="Nutriscore"
+                                 CheckedChanged="OnCheckedChanged"/>
+
+                    <RadioButton Content="E"
+                                 Value="E"
+                                 GroupName="Nutriscore"
+                                 CheckedChanged="OnCheckedChanged"/>
+
+                </HorizontalStackLayout>
+            </Grid>
+        </Frame>
+    </Grid>
+</ContentPage>
